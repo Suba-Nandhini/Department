@@ -23,6 +23,7 @@ public class ProductController {
 
     @PostMapping("/create_product")
     public void createProduct(@RequestBody Product product){
+        //hi
         productRepo.save(product);
     }
 }
